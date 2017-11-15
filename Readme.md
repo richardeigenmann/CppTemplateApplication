@@ -26,17 +26,3 @@ make test
 # or
 ./unit-tests
 ```
-
-## Code Coverage
-To generate code coverage reports from the unit tests run the below steps.
-The CodeCoverage.cmake file used gcov from the gcc installation and lcov
-which has to be installed separately to generate an html coverage report.
-
-```bash
-mkdir -p build
-cd build
-cmake ..
-make
-make sliding-tiles_coverage
-# open the file coverage/index.html with a browser
-```
